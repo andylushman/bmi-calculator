@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>BMI Calculator</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	<body>
+
+		<div class="content">
+
+			<h1>Welcome to Andy's BMI Calculator</h1>
+
+			<div class="intro-text">
+				<p>In order to find out your BMI, all you need is...</p>
+				<ul>
+					<li>Height</li>
+
+					<ul>
+						<li>Meters (m)</li>
+					</ul>
+
+					<li>Weight</li>
+
+					<ul>
+						<li>Kilograms (kg)</li>
+					</ul>
+				</ul>
+
+				<p>In the below calculator, please enter your height and weight.</p>
+			</div>
+
+			<div class="calculator-container">
+
+
+				<form class="calculator-form">
+
+					<div class="input-separator">
+						<label for="height">Height (m)</label>
+						<input id="height" type="number" step="any" name="height" placeholder="Height">
+					</div>
+
+					<div class="input-separator">
+						<label for="weight">Weight (kg)</label>
+						<input id="weight" type="number" step="any" name="weight" placeholder="Weight">
+					</div>
+
+					<button class="calculate-btn" type="submit">Calculate BMI!</button>
+				</form>
+
+				<div class="image-container">
+					<div class="hidden normal-weight-outline outline"></div>
+					<div class="hidden over-weight-outline outline"></div>
+					<div class="hidden obesity-class-1-outline outline"></div>
+					<div class="hidden obesity-class-2-outline outline"></div>
+					<div class="hidden obesity-class-3-outline outline"></div>
+
+					<img src="https://healthylife.werindia.com/wp-content/uploads/2015/01/BMI-Chart-for-Men.jpg" alt="BMI Chart">
+				</div>
+
+			</div>
+
+
+
+				<!--
+				<h2>Calculator</h2>
+				<p>Please enter your height here:
+					<input id="height" type="number" name="height in numbers" value="height">m
+				</p>
+				<p>Please enter your weight here:
+					<input id="weight" type="number" name="weight in numbers" value="weight">kg
+				</p>
+				<p>
+					<button id="calculate" type="button" name="button">Calculate BMI</button>
+				</p>
+			</div>
+			<div class="chart">
+				<img src="https://healthylife.werindia.com/wp-content/uploads/2015/01/BMI-Chart-for-Men.jpg" alt="BMI Chart">
+			</div> -->
+
+		</main>
+
+
+		<script src="../jquery/jquery-3.1.1.js"></script>
+		<script src="main.js" type="text/javascript"></script>
+	</body>
+</html>
